@@ -37,7 +37,6 @@ sudo docker cp /home/<user>/<your_workspace_name>/stella-arm-moveit/. <container
 
 ## Step 4: Now in Terminal 1 run the shell file to install all dependencies and build the packages (Terminal 1)
 
-Check container ID and copy the container ID:
 
 ```bash
 cd /home/asimovo
@@ -47,7 +46,6 @@ chmod +x run.sh
 
 ## Step 5: Source the workspace and launch the bringup (Terminal 1)
 
-Check container ID and copy the container ID:
 
 ```bash
 source install/setup.bash
