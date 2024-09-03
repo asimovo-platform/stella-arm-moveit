@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<robot name="arm" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<material name="silver_default">
+  <color rgba="0.700 0.700 0.700 1.000"/>
+</material>
+<material name="opaque210200">
+  <color rgba="0.8235294117647058 0.0784313725490196 0.0 1.0"/>
+</material>
+<material name="opaque252525">
+  <color rgba="0.09803921568627451 0.09803921568627451 0.09803921568627451 1.0"/>
+</material>
+<material name="opaque160160160">
+  <color rgba="0.6274509803921569 0.6274509803921569 0.6274509803921569 1.0"/>
+</material>
+<material name="opaque1965339">
+  <color rgba="0.7686274509803922 0.20784313725490197 0.15294117647058825 1.0"/>
+</material>
+<material name="opaque898989">
+  <color rgba="0.34901960784313724 0.34901960784313724 0.34901960784313724 1.0"/>
+</material>
+
+</robot>

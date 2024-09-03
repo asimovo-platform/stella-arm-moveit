@@ -1,0 +1,41 @@
+{
+    "base_link": {
+        "material": "opaque210200"
+    },
+    "link1": {
+        "material": "opaque210200"
+    },
+    "link2": {
+        "material": "opaque252525"
+    },
+    "link3": {
+        "material": "opaque210200"
+    },
+    "link4": {
+        "material": "opaque252525"
+    },
+    "link5": {
+        "material": "opaque210200"
+    },
+    "link6": {
+        "material": "opaque210200"
+    },
+    "link7": {
+        "material": "opaque160160160"
+    },
+    "link8": {
+        "material": "opaque210200"
+    },
+    "link9": {
+        "material": "opaque1965339"
+    },
+    "link10": {
+        "material": "opaque252525"
+    },
+    "link11": {
+        "material": "opaque160160160"
+    },
+    "link12": {
+        "material": "opaque898989"
+    }
+}

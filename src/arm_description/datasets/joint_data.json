@@ -1,0 +1,230 @@
+{
+    "base_link-link11": {
+        "type": "continuous",
+        "axis": [
+            0.0,
+            -0.0,
+            -1.0
+        ],
+        "upper_limit": 0.0,
+        "lower_limit": 0.0,
+        "parent": "base_link",
+        "child": "link11",
+        "xyz": [
+            -0.069,
+            0.0,
+            0.006
+        ],
+        "joint_name": "Rev20",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "base_link-link1": {
+        "type": "revolute",
+        "axis": [
+            -0.0,
+            0.0,
+            1.0
+        ],
+        "upper_limit": 3.141593,
+        "lower_limit": -3.141593,
+        "parent": "base_link",
+        "child": "link1",
+        "xyz": [
+            -0.0,
+            -0.0,
+            0.0105
+        ],
+        "joint_name": "Rev21",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link1-link2": {
+        "type": "revolute",
+        "axis": [
+            -0.0,
+            1.0,
+            0.0
+        ],
+        "upper_limit": 4.101524,
+        "lower_limit": 0.0,
+        "parent": "link1",
+        "child": "link2",
+        "xyz": [
+            0.045,
+            -0.017,
+            0.062
+        ],
+        "joint_name": "Rev22",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link2-link3": {
+        "type": "revolute",
+        "axis": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "upper_limit": 0.0,
+        "lower_limit": -2.792527,
+        "parent": "link2",
+        "child": "link3",
+        "xyz": [
+            -0.155,
+            -0.017,
+            0.077
+        ],
+        "joint_name": "Rev23",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link3-link4": {
+        "type": "revolute",
+        "axis": [
+            1.0,
+            -0.0,
+            -0.0
+        ],
+        "upper_limit": 3.141593,
+        "lower_limit": -3.141593,
+        "parent": "link3",
+        "child": "link4",
+        "xyz": [
+            -0.0461,
+            -0.0,
+            0.103
+        ],
+        "joint_name": "Rev24",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link4-link5": {
+        "type": "continuous",
+        "axis": [
+            0.0,
+            1.0,
+            -0.0
+        ],
+        "upper_limit": 0.0,
+        "lower_limit": 0.0,
+        "parent": "link4",
+        "child": "link5",
+        "xyz": [
+            0.0108,
+            -0.024,
+            0.103
+        ],
+        "joint_name": "Rev25",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link4-link6": {
+        "type": "continuous",
+        "axis": [
+            -0.0,
+            -1.0,
+            0.0
+        ],
+        "upper_limit": 0.0,
+        "lower_limit": 0.0,
+        "parent": "link4",
+        "child": "link6",
+        "xyz": [
+            0.0108,
+            0.024,
+            0.103
+        ],
+        "joint_name": "Rev26",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link4-link7": {
+        "type": "revolute",
+        "axis": [
+            -0.0,
+            -1.0,
+            0.0
+        ],
+        "upper_limit": 1.745329,
+        "lower_limit": -1.745329,
+        "parent": "link4",
+        "child": "link7",
+        "xyz": [
+            0.0108,
+            0.024,
+            0.103
+        ],
+        "joint_name": "Rev27",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link7-link8": {
+        "type": "revolute",
+        "axis": [
+            -1.0,
+            0.0,
+            0.0
+        ],
+        "upper_limit": 3.141593,
+        "lower_limit": -3.141593,
+        "parent": "link7",
+        "child": "link8",
+        "xyz": [
+            0.0328,
+            -0.0,
+            0.103
+        ],
+        "joint_name": "Rev28",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link8-link12": {
+        "type": "continuous",
+        "axis": [
+            -1.0,
+            0.0,
+            0.0
+        ],
+        "upper_limit": 0.0,
+        "lower_limit": 0.0,
+        "parent": "link8",
+        "child": "link12",
+        "xyz": [
+            0.0664,
+            0.05,
+            0.103
+        ],
+        "joint_name": "Rev29",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link8-link10": {
+        "type": "prismatic",
+        "axis": [
+            0.0,
+            1.0,
+            -0.0
+        ],
+        "upper_limit": 0.051,
+        "lower_limit": 0.0,
+        "parent": "link8",
+        "child": "link10",
+        "xyz": [
+            0.0641,
+            0.0325,
+            0.0959
+        ],
+        "joint_name": "Slider30",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    },
+    "link8-link9": {
+        "type": "prismatic",
+        "axis": [
+            -0.0,
+            -1.0,
+            0.0
+        ],
+        "upper_limit": 0.051,
+        "lower_limit": 0.0,
+        "parent": "link8",
+        "child": "link9",
+        "xyz": [
+            0.0641,
+            -0.0325,
+            0.1101
+        ],
+        "joint_name": "Slider31",
+        "joint_parent_name": "Stella Arm 6axis - for URDF v7"
+    }
+}
