@@ -32,7 +32,7 @@ sudo docker ps
 Now Copy the packages into the docker container using:
 
 ```bash
-sudo docker cp /home/<user>/<your_workspace_name>/src/. <container ID>:/home/asimovo/src
+sudo docker cp /home/<user>/<your_workspace_name>/stella-arm-moveit/. <container ID>:/home/asimovo
 ```
 
 ## Step 4: Now in Terminal 1 run the shell file to install all dependencies and build the packages (Terminal 1)
